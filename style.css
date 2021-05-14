@@ -3,11 +3,12 @@
         }
     .center {
         text-align: center;
+        padding-bottom: 3em;
         }
     .header, h1, h2, h5, p {
         color: rgb(243, 224, 224);
-        text-align: center;
         }
+
     h1 {
         font-weight: 600;
         }
@@ -18,16 +19,18 @@
         width: 50%;
         }      
     #aboutpage {
-        display: contents;
+        display: flexbox;
+        padding-top: 4em;
         }
     #about-left img {
         float: left;
         padding-left: 3%;
         border-radius: 10%;
         width: 15%;
-        border-radius: 90%;
+
 
         }
     #about-right {
-        float: right;
+        float: center;
+        text-align: center;
         }
