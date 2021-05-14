@@ -1,36 +1,35 @@
     body {
         background-color: rgb(0, 0, 0);
-        }
+    }
+
+    .header, h1, h2, h5, p {
+        color: rgb(243, 224, 224);
+    } 
+    h1 {
+        font-weight: 600;
+    }   
     .center {
         text-align: center;
         padding-bottom: 3em;
-        }
-    .header, h1, h2, h5, p {
-        color: rgb(243, 224, 224);
-        }
+    }
 
-    h1 {
-        font-weight: 600;
-        }
     .home1 {
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
-        }      
+        max-width: 50%;
+    }      
     #aboutpage {
-        display: flexbox;
+        display: contents;
         padding-top: 4em;
-        }
+    }
     #about-left img {
         float: left;
         padding-left: 3%;
         border-radius: 10%;
         max-width: 15%;
         margin-left: 10%;
-
-
-        }
+    }
     #about-right {
         float: center;
         margin-left: 35%;
-        }
+    }
