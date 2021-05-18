@@ -4,16 +4,15 @@
     h1 {
         font-weight: 600;
         margin-bottom: -10px;
-    h2 {
-        margin-bottom: -10px;
-    }
     } 
     .header, h1, h2, h5, p {
         color: rgb(243, 224, 224);
     } 
+    .content {
+        padding-bottom: 3em;
+    }
     .center {
         text-align: center;
-        padding-bottom: 3em;
     }
     .home1 {
         margin-left: auto;
